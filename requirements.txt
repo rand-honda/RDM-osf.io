@@ -5,6 +5,8 @@
 # To install dev requirements: inv requirements --dev
 # To install release requirements: inv requirements --release
 
+chardet==2.3.0
+h5py==2.10.0
 future==0.18.2
 invoke==0.15.0
 Werkzeug==1.0.0

@@ -24,6 +24,7 @@
     "css-loader": "^0.9.1",
     "diff": "~2.2.2",
     "dropzone": "https://github.com/CenterForOpenScience/dropzone.git#aba21eb6b82cc823ac7a7a53d6e035791c082bae",
+    "exif-js": "^2.3.0",
     "exports-loader": "0.6.3",
     "file-loader": "^0.8.1",
     "font-awesome": "^4.4.0",
@@ -36,6 +37,7 @@
     "imports-loader": "^0.6.3",
     "js-cookie": "2.1.2",
     "js-md5": "^0.4.1",
+    "jschardet": "^3.0.0",
     "json-loader": "0.5.3",
     "jstimezonedetect": "^1.0.6",
     "keen-analysis": "^1.1.0",
@@ -72,6 +74,8 @@
     "uuid": "^2.0.1",
     "vkbeautify": "^0.99.3",
     "webpack": "3.8.1",
+    "xlsx": "^0.12.13",
+    "xlsx-populate": "^1.21.0",
     "zxcvbn": "^4.2.0"
   },
   "devDependencies": {

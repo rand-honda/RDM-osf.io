@@ -473,6 +473,19 @@ def make_url_map(app):
             website_views.reproducibility,
             notemplate
         ),
+        Rule('/hdf5_create2/',
+            'get', website_views.hdf5_create, notemplate            
+        ),
+        Rule('/hdf5_create/',
+            'get', website_views.hdf5_create, json_renderer            
+        ),
+        Rule('/checkHdf5Progress/',
+            'get', website_views.checkHdf5Progress, json_renderer            
+        ),
+        Rule('/read_json_file/',
+             'get', website_views.read_json_file, json_renderer),        
+          Rule('/read_file/',
+             'get', website_views.read_file, json_renderer),    
         Rule('/about/', 'get', website_views.redirect_about, notemplate),
         Rule('/help/', 'get', website_views.redirect_help, notemplate),
         Rule('/faq/', 'get', website_views.redirect_faq, notemplate),
@@ -1989,6 +2002,16 @@ def make_url_map(app):
             ],
             ['get'],
             project_views.quota.get_creator_quota,
+            json_renderer,
+        ),
+        
+        #HDF5 create
+        Rule(
+            [
+                '/project/<pid>/makeHDF5/',                
+            ],
+            ['get', 'post'],
+            project_views.hdf5.makeHDF5,
             json_renderer,
         ),
 

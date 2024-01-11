@@ -92,6 +92,16 @@ RUN set -ex \
         jpeg-dev \
     && pip3 install Cython==0.29.36 \
     && pip3 install numpy==1.15.4 \
+    # GRDM-39239: Installing hdf5 for h5py
+    && curl https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.10/src/hdf5-1.10.10.tar.gz > /tmp/hdf5-1.10.10.tar.gz \
+    && cd /tmp/ \
+    && tar zxvf hdf5-1.10.10.tar.gz \
+    && cd hdf5-1.10.10 \
+    && ./configure --prefix=/usr \
+    && make \
+    && make install \
+    && cd \
+    && rm -fr /tmp/hdf5-1.10.10 \
     && for reqs_file in \
         /code/requirements.txt \
         /code/requirements/release.txt \
@@ -103,8 +113,7 @@ RUN set -ex \
     && (pip3 uninstall uritemplate.py --yes || true) \
     && pip3 install --no-cache-dir uritemplate.py==0.3.0 \
     # Fix: https://github.com/CenterForOpenScience/osf.io/pull/6783
-    && python3 -m compileall /usr/lib/python3.6 || true \
-    && apk del .build-deps
+    && python3 -m compileall /usr/lib/python3.6 || true 
 
 # Settings
 COPY ./tasks/ ./tasks/

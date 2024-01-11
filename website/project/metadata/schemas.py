@@ -41,6 +41,8 @@ OSF_META_SCHEMAS = [
     ensure_schema_structure(from_json('egap-registration.json')),
     ensure_schema_structure(from_json('egap-registration-3.json')),
     ensure_schema_structure(from_json('e-rad-metadata-1.json')),
+    ensure_schema_structure(from_json('e-rad-metadata-mibyo.json')),    
+    #ensure_schema_structure(from_json('e-rad-metadata-mib.json')),
 ]
 
 METASCHEMA_ORDERING = (
@@ -58,4 +60,6 @@ METASCHEMA_ORDERING = (
     'RIDIE Registration - Study Complete',
     'EGAP Registration',
     '公的資金による研究データのメタデータ登録',
+    '未病データベース_メタデータ登録',    
+    #'公的資金による研究データのメタデータ登録test',
 )

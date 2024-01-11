@@ -373,6 +373,207 @@ a {
     word-wrap: break-word;
 }
 
+html{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+.cf:before,
+.cf:after{
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+
+p {
+    margin: 0 0 1em;
+    padding: 10px;
+}
+
+.leftside {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.vertical_line{
+    /* content: " "; */
+    max-width: 100%;
+    width: 4px;
+    background: #c1bcbc;
+ /*    position: relative; */
+    position: absolute;
+    /* z-index: 1; */
+    top: 40px;
+    bottom: 51px;
+    left: 1.6em;
+/* }   left: 10%; */
+}
+
+/* .leftside .vertical_line::before, 
+.leftside .vertical_line::before  {
+    content: " ";
+    position: absolute;
+    width: 4px;
+    left: 14%;
+    bottom: 100%;
+    height: 99em;
+    background: #fff;
+
+} */
+
+.leftside .active {
+    color: #333;
+    box-shadow: -2px 1px 5px -2px #ddd;
+    border: 1px solid #ddd;
+    border-right: 0;
+    background: #fff;
+    width: 206px;
+    position: relative;
+    z-index: 1000;
+}
+
+.leftside .active > .fa-circle::before {
+    /* content: "\f05d";     */
+    content: "\f10c";
+    color: #000;
+}
+
+.leftside a > .fa-circle::before {
+    content: "\f05d";   
+    z-index: 1000; 
+}
+
+.leftside a > .fa-circle-red::before{ 
+    content: "\f06a"; 
+    z-index: 1000; 
+}
+
+.leftside a {
+    padding: 10px;
+    text-decoration: none;
+    /* color: #337ab7;    */
+    color: #458446;   /* green */
+    align-items: center;
+    display: inline-flex !important;
+    white-space: nowrap;
+    width: 205px;
+}
+
+.leftside a:hover {
+    background: #12aaf4;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    z-index: 1000;    
+}
+
+.leftside a:hover > .fa-circle::before{
+    /* content : "\f10c";   */ /* comment 20231011*/
+    color:  #fff;   
+}
+
+.leftside a:hover > i::before {
+  border-radius: initial;
+  background-color: transparent;
+  box-shadow: none;
+  position: static;
+  z-index: initial;
+}
+
+.leftside i {
+    /* position: relative;  */
+    /* color: #fff; */
+    /* border: 1px solid #8a7e7e; */
+    /* border-radius: 40px; */
+    font-size: 23px;
+    /* color: #c1bcbc; */
+    /*color: #458446; *//* green */ /* comment 20231011*/
+    text-align: start;
+    /* z-index: 1000; */
+    width: auto;
+}
+
+.leftside i::before{
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 0 3px #fff;
+    position: relative;
+    z-index: 1000;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.block {
+    width: 85%;
+    position: relative;
+    padding: 0 50px 0 0;
+    clear: both;
+}
+
+/* .block:focus{
+
+} */
+
+.fr {
+    padding: 0 0 0 50px;
+}
+
+.circle{
+    width: 34px;
+    height:28px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-right: -92px;
+    /* margin-top: 1em; */
+    position: relative;
+    border: 1px solid #110101;
+    z-index: 2;
+}
+
+.fr .circle{
+    float: left;
+    margin-left: -85px;
+}
+
+.circle.first:before,
+.circle.last:before{
+    content:" ";
+    position: absolute;
+    width: 4px;
+    left: 50%;
+    margin: 0 0 0 -2px;
+    /* background: #000; */
+    bottom: 100%;
+    height: 99em;
+    z-index: 3;
+    background: #fff;
+}
+
+.circle.last:before{
+    bottom: auto;
+    top: 100%;
+}
+
 /* sub-header for modal*/
 .modal-subheader {
     font-size: 20px;

@@ -1,0 +1,422 @@
+
+-------------------------------------------------------
+loop start -->02:29:25.474441
+
+-------------------------------------------------------
+loop start -->02:29:25.476760
+hdf5 start -->02:29:25.476987
+encoding -->utf-8 -- 02:30:04.047563
+temp downloadFileName opening -->02:30:04.054796
+temp chunk processing -->02:30:04.055193
+temp finished -->02:30:04.071435
+hdf5 downloadFileName start -->02:30:04.110782
+hdf5 downloadFileName opening -->02:30:04.123044
+hdf5 chunk processing -->02:30:04.138200
+hdf5 dataset processing -->02:30:04.140946
+hdf5 chunk processing -->02:30:04.169390
+
+-------------------------------------------------------
+loop start -->02:37:04.654366
+
+-------------------------------------------------------
+loop start -->02:37:04.656546
+hdf5 start -->02:37:04.656754
+encoding -->utf-8 -- 02:37:38.353825
+temp downloadFileName opening -->02:37:38.355033
+temp chunk processing -->02:37:38.355249
+temp finished -->02:37:38.359294
+hdf5 downloadFileName start -->02:37:38.373060
+hdf5 downloadFileName opening -->02:37:38.373552
+hdf5 chunk processing -->02:37:38.375510
+hdf5 dataset processing -->02:37:38.378955
+hdf5 chunk processing -->02:37:38.379414
+
+-------------------------------------------------------
+loop start -->02:52:26.149522
+
+-------------------------------------------------------
+loop start -->02:52:26.155966
+hdf5 start -->02:52:26.156021
+encoding -->utf-8 -- 02:53:10.959602
+temp downloadFileName opening -->02:53:10.962203
+temp chunk processing -->02:53:10.964929
+temp finished -->02:53:10.970918
+hdf5 downloadFileName start -->02:53:11.005452
+
+-------------------------------------------------------
+loop start -->02:56:40.430222
+
+-------------------------------------------------------
+loop start -->02:56:40.433067
+hdf5 start -->02:56:40.433371
+encoding -->utf-8 -- 02:57:55.126773
+temp downloadFileName opening -->02:57:55.130590
+temp chunk processing -->02:57:55.130707
+temp finished -->02:57:55.136906
+hdf5 downloadFileName start -->02:57:55.164015
+hdf5 downloadFileName opening -->02:57:55.194554
+hdf5 downloadFileName opening -->02:57:55.234524
+
+-------------------------------------------------------
+loop start -->03:01:29.158050
+
+-------------------------------------------------------
+loop start -->03:01:29.168851
+hdf5 start -->03:01:29.168936
+encoding -->utf-8 -- 03:02:47.672483
+temp downloadFileName opening -->03:02:47.672958
+temp chunk processing -->03:02:47.673073
+temp finished -->03:02:47.683489
+hdf5 downloadFileName start -->03:02:47.752404
+hdf5 downloadFileName opening -->03:02:47.794501
+
+-------------------------------------------------------
+loop start -->03:07:08.679860
+
+-------------------------------------------------------
+loop start -->03:07:08.687656
+hdf5 start -->03:07:08.687718
+encoding -->utf-8 -- 03:08:35.972941
+temp downloadFileName opening -->03:08:35.977649
+temp chunk processing -->03:08:35.977764
+temp finished -->03:08:35.985910
+hdf5 downloadFileName start -->03:08:36.158126
+hdf5 downloadFileName opening -->03:08:36.235136
+hdf5 downloadFileName opening -->03:08:36.267001
+
+-------------------------------------------------------
+loop start -->03:11:29.526454
+
+-------------------------------------------------------
+loop start -->03:11:29.538334
+hdf5 start -->03:11:29.538425
+encoding -->utf-8 -- 03:12:55.195710
+temp downloadFileName opening -->03:12:55.196106
+temp chunk processing -->03:12:55.196197
+temp finished -->03:12:55.200860
+hdf5 downloadFileName start -->03:12:55.227425
+hdf5 downloadFileName opening -->03:12:55.256130
+
+-------------------------------------------------------
+loop start -->03:16:51.398224
+
+-------------------------------------------------------
+loop start -->03:16:51.426082
+hdf5 start -->03:16:51.426160
+encoding -->utf-8 -- 03:18:27.604275
+temp downloadFileName opening -->03:18:27.617743
+temp chunk processing -->03:18:27.617841
+temp finished -->03:18:27.660103
+hdf5 downloadFileName start -->03:18:27.793228
+hdf5 downloadFileName opening -->03:18:27.833238
+hdf5 downloadFileName opening -->03:18:27.890824
+
+-------------------------------------------------------
+loop start -->03:43:07.574311
+
+-------------------------------------------------------
+loop start -->03:43:07.580058
+hdf5 start -->03:43:07.580149
+encoding -->utf-8 -- 03:44:38.179305
+temp downloadFileName opening -->03:44:38.181585
+temp chunk processing -->03:44:38.181689
+temp finished -->03:44:38.189191
+hdf5 downloadFileName start -->03:44:38.215264
+hdf5 chunk processing -->03:44:38.241821
+
+-------------------------------------------------------
+loop start -->04:20:46.099181
+
+-------------------------------------------------------
+loop start -->04:20:46.099625
+hdf5 start -->04:20:46.099728
+encoding -->utf-8 -- 04:22:02.689807
+temp downloadFileName opening -->04:22:02.690201
+temp chunk processing -->04:22:02.690365
+temp finished -->04:22:02.706942
+
+-------------------------------------------------------
+loop start -->04:28:56.445949
+
+-------------------------------------------------------
+loop start -->04:28:56.447427
+hdf5 start -->04:28:56.447538
+encoding -->utf-8 -- 04:30:22.299000
+temp downloadFileName opening -->04:30:22.309685
+temp chunk processing -->04:30:22.310020
+temp finished -->04:30:22.347756
+hdf5 finished -->04:30:22.568105
+
+-------------------------------------------------------
+loop start -->04:39:41.164472
+
+-------------------------------------------------------
+loop start -->04:39:41.168184
+hdf5 start -->04:39:41.168238
+
+-------------------------------------------------------
+loop start -->04:51:54.997732
+
+-------------------------------------------------------
+loop start -->04:51:54.998340
+hdf5 start -->04:51:55.004764
+encoding -->utf-8 -- 04:53:13.313642
+temp downloadFileName opening -->04:53:13.317060
+temp chunk processing -->04:53:13.317129
+temp finished -->04:53:13.351055
+
+-------------------------------------------------------
+loop start -->04:59:28.658840
+
+-------------------------------------------------------
+loop start -->04:59:28.664784
+hdf5 start -->04:59:28.664898
+encoding -->utf-8 -- 05:00:23.502759
+temp downloadFileName opening -->05:00:23.503480
+temp chunk processing -->05:00:23.504258
+temp finished -->05:00:23.513760
+
+-------------------------------------------------------
+loop start -->05:07:01.842656
+
+-------------------------------------------------------
+loop start -->05:07:01.843532
+hdf5 start -->05:07:01.843697
+
+-------------------------------------------------------
+loop start -->05:40:46.563783
+
+-------------------------------------------------------
+loop start -->05:40:46.564105
+hdf5 start -->05:40:46.564186
+
+-------------------------------------------------------
+loop start -->05:57:33.485915
+
+-------------------------------------------------------
+loop start -->05:57:33.486238
+hdf5 start -->05:57:33.486284
+encoding -->utf-8 -- 06:11:47.731947
+temp downloadFileName opening -->06:11:47.754883
+temp chunk processing -->06:11:47.755418
+temp chunk processing -->06:11:47.775561
+temp chunk processing -->06:11:47.844974
+temp chunk processing -->06:11:47.902559
+temp chunk processing -->06:11:47.971045
+temp chunk processing -->06:11:48.025338
+temp chunk processing -->06:11:48.095062
+temp chunk processing -->06:11:48.158593
+temp chunk processing -->06:11:48.177480
+temp chunk processing -->06:11:48.197754
+temp chunk processing -->06:11:48.205691
+temp chunk processing -->06:11:48.238789
+temp chunk processing -->06:11:48.261380
+temp chunk processing -->06:11:48.286105
+temp chunk processing -->06:11:48.326668
+temp chunk processing -->06:11:48.369538
+temp finished -->06:11:48.370075
+encoding -->utf-8 -- 06:14:14.267158
+temp downloadFileName opening -->06:14:14.271537
+temp chunk processing -->06:14:14.272244
+temp chunk processing -->06:14:14.276294
+temp chunk processing -->06:14:14.280430
+temp chunk processing -->06:14:14.284567
+temp chunk processing -->06:14:14.288870
+temp chunk processing -->06:14:14.292998
+temp chunk processing -->06:14:14.297632
+temp chunk processing -->06:14:14.301579
+temp chunk processing -->06:14:14.305816
+temp chunk processing -->06:14:14.309946
+temp chunk processing -->06:14:14.314172
+temp finished -->06:14:14.330557
+
+-------------------------------------------------------
+loop start -->06:22:32.038053
+
+-------------------------------------------------------
+loop start -->06:22:32.040541
+hdf5 start -->06:22:32.040738
+encoding -->utf-8 -- 06:22:45.129452
+temp downloadFileName opening -->06:22:45.130569
+temp chunk processing -->06:22:45.130805
+temp finished -->06:22:45.132055
+hdf5 downloadFileName start -->06:22:45.143245
+hdf5 downloadFileName opening -->06:22:45.143748
+hdf5 chunk processing -->06:22:45.144460
+hdf5 dataset processing -->06:22:45.153448
+hdf5 chunk processing -->06:22:45.154174
+
+-------------------------------------------------------
+loop start -->06:26:02.047388
+
+-------------------------------------------------------
+loop start -->06:26:02.048069
+hdf5 start -->06:26:02.048118
+encoding -->utf-8 -- 06:38:12.904171
+temp downloadFileName opening -->06:38:12.921976
+temp chunk processing -->06:38:12.922560
+temp chunk processing -->06:38:12.955377
+temp chunk processing -->06:38:12.986108
+temp chunk processing -->06:38:13.042821
+temp chunk processing -->06:38:13.119791
+temp chunk processing -->06:38:13.141510
+temp chunk processing -->06:38:13.159960
+temp chunk processing -->06:38:13.171047
+temp chunk processing -->06:38:13.179455
+temp chunk processing -->06:38:13.186722
+temp chunk processing -->06:38:13.203891
+temp finished -->06:38:13.213895
+hdf5 downloadFileName start -->06:38:13.409051
+hdf5 downloadFileName opening -->06:38:13.414454
+hdf5 chunk processing -->06:38:13.419224
+hdf5 dataset processing -->06:38:13.466691
+hdf5 chunk processing -->06:38:13.474573
+hdf5 finished -->06:38:13.474573
+-------------------------------------------------------
+loop start -->06:45:58.639537
+
+-------------------------------------------------------
+loop start -->06:45:58.651823
+hdf5 start -->06:45:58.651887
+encoding -->utf-8 -- 06:56:46.786666
+temp downloadFileName opening -->06:56:46.788466
+temp chunk processing -->06:56:46.789092
+temp chunk processing -->06:56:46.815817
+temp chunk processing -->06:56:46.842131
+temp chunk processing -->06:56:46.860441
+temp chunk processing -->06:56:46.868293
+temp chunk processing -->06:56:46.876633
+temp chunk processing -->06:56:46.886130
+temp chunk processing -->06:56:46.895797
+temp chunk processing -->06:56:46.905767
+temp chunk processing -->06:56:46.913600
+temp chunk processing -->06:56:46.922014
+temp finished -->06:56:46.935489
+hdf5 downloadFileName start -->06:56:47.214310
+hdf5 downloadFileName opening -->06:56:47.224798
+hdf5 chunk processing -->06:56:47.227822
+hdf5 dataset processing -->06:56:47.247977
+hdf5 chunk processing -->06:56:47.279321
+hdf5 finished -->06:56:47.279321
+-------------------------------------------------------
+loop start -->07:48:23.664701
+
+-------------------------------------------------------
+loop start -->07:48:23.665532
+hdf5 start -->07:48:23.665696
+
+-------------------------------------------------------
+loop start -->09:07:31.837957
+
+-------------------------------------------------------
+loop start -->09:07:31.838134
+hdf5 start -->09:07:31.838178
+
+-------------------------------------------------------
+loop start -->09:43:36.353546
+
+-------------------------------------------------------
+loop start -->09:43:36.360967
+hdf5 start -->09:43:36.361103
+
+-------------------------------------------------------
+loop start -->10:39:42.325408
+
+-------------------------------------------------------
+loop start -->10:39:42.331773
+hdf5 start -->10:39:42.332093
+encoding -->utf-8 -- 10:49:37.849095
+temp downloadFileName opening -->10:49:37.861333
+temp chunk processing -->10:49:37.872574
+temp chunk processing -->10:49:37.882965
+temp chunk processing -->10:49:37.887274
+temp chunk processing -->10:49:37.892505
+temp chunk processing -->10:49:37.900704
+temp chunk processing -->10:49:37.906893
+temp chunk processing -->10:49:37.914152
+temp chunk processing -->10:49:37.924886
+temp chunk processing -->10:49:37.929622
+temp chunk processing -->10:49:37.934201
+temp chunk processing -->10:49:37.938861
+temp chunk processing -->10:49:37.947217
+temp chunk processing -->10:49:37.955316
+temp chunk processing -->10:49:37.959843
+temp chunk processing -->10:49:37.968133
+temp chunk processing -->10:49:37.973617
+temp chunk processing -->10:49:37.983338
+temp chunk processing -->10:49:37.988779
+temp chunk processing -->10:49:37.993716
+temp chunk processing -->10:49:37.998330
+temp finished -->10:49:38.003223
+hdf5 downloadFileName start -->10:49:38.318842
+hdf5 downloadFileName opening -->10:49:38.319122
+hdf5 chunk processing -->10:49:38.323610
+hdf5 dataset processing -->10:49:38.403079
+hdf5 chunk processing -->10:49:38.407379
+hdf5 finished -->10:49:38.407379
+-------------------------------------------------------
+loop start -->11:13:52.275773
+
+-------------------------------------------------------
+loop start -->11:13:52.276366
+hdf5 start -->11:13:52.276507
+encoding -->utf-8 -- 11:18:42.746732
+temp downloadFileName opening -->11:18:42.747348
+temp chunk processing -->11:18:42.747825
+temp chunk processing -->11:18:42.752994
+temp chunk processing -->11:18:42.765774
+temp chunk processing -->11:18:42.775496
+temp chunk processing -->11:18:42.784211
+temp chunk processing -->11:18:42.789514
+temp chunk processing -->11:18:42.795310
+temp chunk processing -->11:18:42.804206
+temp chunk processing -->11:18:42.809201
+temp chunk processing -->11:18:42.826083
+temp chunk processing -->11:18:42.831260
+temp finished -->11:18:42.834432
+hdf5 downloadFileName start -->11:18:43.016946
+hdf5 downloadFileName opening -->11:18:43.031952
+hdf5 chunk processing -->11:18:43.036334
+hdf5 dataset processing -->11:18:43.080569
+hdf5 chunk processing -->11:18:43.087874
+hdf5 finished -->11:18:43.087874
+-------------------------------------------------------
+loop start -->15:05:45.484717
+
+-------------------------------------------------------
+loop start -->15:05:45.485717
+hdf5 start -->15:05:45.486310
+
+-------------------------------------------------------
+loop start -->15:09:34.685031
+
+-------------------------------------------------------
+loop start -->15:09:34.685405
+hdf5 start -->15:09:34.685465
+
+-------------------------------------------------------
+loop start -->01:05:23.921149
+
+-------------------------------------------------------
+loop start -->01:05:23.922298
+hdf5 start -->01:05:23.922672
+encoding -->utf-8 -- 01:10:22.953377
+temp downloadFileName opening -->01:10:22.957658
+temp chunk processing -->01:10:22.958212
+temp chunk processing -->01:10:22.962300
+temp chunk processing -->01:10:22.967649
+temp chunk processing -->01:10:22.971868
+temp chunk processing -->01:10:22.976642
+temp chunk processing -->01:10:22.981866
+temp chunk processing -->01:10:22.986681
+temp chunk processing -->01:10:22.991608
+temp chunk processing -->01:10:22.996435
+temp chunk processing -->01:10:23.000790
+temp chunk processing -->01:10:23.004918
+temp finished -->01:10:23.007458
+hdf5 downloadFileName start -->01:10:23.162171
+hdf5 downloadFileName opening -->01:10:23.162408
+hdf5 chunk processing -->01:10:23.170013
+hdf5 dataset processing -->01:10:23.217040
+hdf5 chunk processing -->01:10:23.223428
+hdf5 finished -->01:10:23.239881
