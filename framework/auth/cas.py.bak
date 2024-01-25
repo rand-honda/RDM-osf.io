@@ -3,7 +3,7 @@
 import furl
 from rest_framework import status as http_status
 import json
-from future.moves.urllib.parse import quote, urlparse, parse_qs, urlunparse
+from future.moves.urllib.parse import quote
 
 from lxml import etree
 import requests
@@ -253,15 +253,13 @@ def make_response_from_ticket(ticket, service_url):
     :return: redirect response
     """
 
-    parsed_url = urlparse(service_url)
+    service_furl = furl.furl(service_url)
     # `service_url` is guaranteed to be removed of `ticket` parameter, which has been pulled off in
     # `framework.sessions.before_request()`.
-    querys = parse_qs(parsed_url.query)
-    if 'ticket' in querys:
-        querys.pop('ticket')
+    if 'ticket' in service_furl.args:
+        service_furl.args.pop('ticket')
     client = get_client()
-    re_service_url = urlunparse(parsed_url._replace(query=querys))
-    cas_resp = client.service_validate(ticket, re_service_url)
+    cas_resp = client.service_validate(ticket, service_furl.url)
     if cas_resp.authenticated:
         user, external_credential, action = get_user_from_cas_resp(cas_resp)
         # user found and authenticated
@@ -285,7 +283,7 @@ def make_response_from_ticket(ticket, service_url):
 
             # if user is authenticated by CAS
             # TODO [CAS-27]: Remove Access Token From Service Validation
-            redirect_url = re_service_url
+            redirect_url = service_furl.url
             if not user.is_full_account_required_info:
                 from website.util import web_url_for
                 redirect_url = web_url_for('user_profile', _absolute=True)
@@ -305,14 +303,14 @@ def make_response_from_ticket(ticket, service_url):
                 'external_id': external_credential['id'],
                 'fullname': fullname,
                 'access_token': cas_resp.attributes.get('accessToken', ''),
-                'service_url': re_service_url,
+                'service_url': service_furl.url,
             }
             return external_first_login_authenticate(
                 user,
                 redirect(web_url_for('external_login_email_get'))
             )
     # Unauthorized: ticket could not be validated, or user does not exist.
-    return redirect(re_service_url)
+    return redirect(service_furl.url)
 
 
 def get_user_from_cas_resp(cas_resp):

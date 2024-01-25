@@ -8,6 +8,7 @@ from django.db.models import Q
 import bson.objectid
 import itsdangerous
 from flask import request
+import furl
 from weakref import WeakKeyDictionary
 from werkzeug.local import LocalProxy
 
@@ -121,12 +122,10 @@ def before_request():
     # Central Authentication Server Ticket Validation and Authentication
     ticket = request.args.get('ticket')
     if ticket:
-        parsed_url = urlparse(request.url)
-        querys = parse_qs(parsed_url.query)
-        querys.pop('ticket')
-        service_url = urlunparse(parsed_url._replace(query=querys))
+        service_url = furl.furl(request.url)
+        service_url.args.pop('ticket')
         # Attempt to authenticate wih CAS, and return a proper redirect response
-        return cas.make_response_from_ticket(ticket=ticket, service_url=service_url)
+        return cas.make_response_from_ticket(ticket=ticket, service_url=service_url.url)
 
     if request.authorization:
         user = get_user(
