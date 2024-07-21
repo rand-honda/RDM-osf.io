@@ -1676,7 +1676,7 @@
           "nav": "測定対象器官",
           "title": "測定対象器官|Target organs for measurement",
           "type": "array",
-          "help": "（※）記入上の注意器官の種別（以下から選択、または、具体的な内容をご記入下さい）：・ 臓器・（由来）臓器・培養・ 上記以外（具体的に記述下さい）器官の名称（１行に１器官を記入、具体的な臓器名などをご記入下さい）：e.g. 肝臓、・腎臓、・膵臓、・精巣上体白色脂肪組織 (eWAT)、・視床下部、・脳下垂体|(＊)Notes for entry Type of organ (Please select from the following or provide specifics):・Organ・Organ-derived cultured tissues and cells・Other than the above (please specify)Name of organ (one organ per line, please provide specific organ name, etc.):e.g. liver, kidney, pancreas, epididymal white adipose tissue (eWAT), hypothalamus, pituitary gland", 
+          "help": "（※）記入上の注意器官の種別（以下から選択、または、具体的な内容をご記入下さい）：・ 臓器・（由来）臓器・培養・ 上記以外（具体的に記述下さい）器官の名称（１行に１器官を記入、具体的な臓器名などをご記入下さい）：e.g. 肝臓、・腎臓、・膵臓、・精巣上体白色脂肪組織 (eWAT)、・視床下部、・脳下垂体|(＊)Notes for entry Type of organ (Please select from the following or provide specifics):・Organ・Organ-derived cultured tissues and cells・Other than the above (please specify)Name of organ (one organ per line, please provide specific organ name, etc.):e.g. liver, kidney, pancreas, epididymal white adipose tissue (eWAT), hypothalamus, pituitary gland",
           "properties": [
             {
               "id": "Organ-Types",
