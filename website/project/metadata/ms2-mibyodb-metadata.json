@@ -944,7 +944,7 @@
           "space_normalization": true
         },
         {
-          "qid": "grdm-file:Label-DomainMetadata-text",	
+          "qid": "grdm-file:Label-DomainMetadata-text",
           "nav": "データ作成者",
           "title": "■ドメインメタデータ_テキストファイル ────────────────────────────────────────|■DomainMetadata_TextFile ────────────────────────────────────────",
           "type": "object",
